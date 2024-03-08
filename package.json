@@ -1,0 +1,30 @@
+{
+  "name": "unorooms",
+  "version": "1.0.0",
+  "description": "API for UNO Rooms",
+  "main": "index.js",
+  "scripts": {
+    "//": "npm run start-watch",
+    "start": "node src/index.js",
+    "start-watch": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neeraj-nayan/unorooms.git"
+  },
+  "author": "Neeraj Nayan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neeraj-nayan/unorooms/issues"
+  },
+  "homepage": "https://github.com/neeraj-nayan/unorooms#readme",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.5",
+    "nodemon": "^3.1.0"
+  }
+}
